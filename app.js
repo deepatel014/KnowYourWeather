@@ -32,7 +32,7 @@ window.addEventListener('load',()=>{
                     tempDegree.textContent = temp;
                     tempDescription.textContent = description;
                     region.textContent = name;
-                    weatherIcon.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+                    weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
                     let farenheit = (temp * 9/5) +32;
                     //change temperature to celcuis or farenheit
